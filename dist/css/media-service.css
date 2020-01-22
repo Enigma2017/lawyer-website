@@ -1,0 +1,1535 @@
+@media screen and (max-width: 1300px){
+	.header__title_block{
+		top: 29%;
+	}
+
+	.main__header_scale{
+		width: 120px;
+		height: 50px;
+	}
+
+	.header__title_german{
+		top: 25%;
+	}
+
+	.header__title{
+		padding-top: 25px;
+		font-size: 38px;
+	}
+
+	.header__title_text{
+		font-size: 40px;
+		padding: 5px 0 30px 0;
+	}
+
+	.header__title_button{
+		font-size: 17px;
+		padding: 8px 22px;
+		margin-top: 25px;
+	}
+
+	.header__de_button{
+		margin-top: 4px;
+	}
+}
+
+@media screen and (max-width: 1199px){
+	.header__title_block{
+		top: 33%;
+	}
+
+	.header__title_german{
+		top: 29%;
+	}
+
+	.eng__version{
+		margin-top: -5px;
+	}
+
+	.main__header_scale{
+		width: 120px;
+		height: 50px;
+	}
+
+	.header__title{
+		padding-top: 25px;
+		font-size: 38px;
+	}
+
+	.header__title_text{
+		font-size: 40px;
+		padding: 5px 0 30px 0;
+	}
+
+	.header__menu_item {
+  		margin-left: 26px;
+  		font-size: 13px;
+	}
+
+	.dropdown__item_menu {
+  		margin-left: 29px;
+  		font-size: 13px;
+	}
+
+	.header__item_main {
+  		font-size: 13px;
+	}
+
+	.item__main {
+  		font-size: 13px;
+	}
+
+	.priority__text{
+		font-size: 17px;
+		letter-spacing: 2px;
+		line-height: 22px;
+	}
+
+	.about__lawyer_education{
+		padding: 15px 0 0 15px;
+	}
+
+	.about__img{
+		width: 300px;
+		height: 390px;
+	}
+
+	.proposition__offer_text{
+		padding: 50px 0 16px 0;
+		line-height: 28px;
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin-left: 15px;
+	}
+
+	.proposition__service{
+		height: auto;
+	}
+
+	.cooperation__picture_img{
+		width: 450px;
+	}
+
+	.cooperation__text_hide{
+		display: none;
+	}
+
+	.cooperation__text_link{
+		display: flex;
+	}
+
+	.cooperation__text, .cooperation__text_de{
+		line-height: 20px;
+		margin-top: -2px;
+	}
+
+	.proposition__offer_img{
+		width: 370px;
+		height: 255px;
+	}
+
+	.cooperation, .cooperation__de{
+		padding: 115px 0 15px 0;
+	}
+
+	.map__main{
+		width: 900px;
+		height: 450px;
+	}
+
+	.footer__logo_pl{
+		padding: 38px 100px 110px 0;
+	}
+
+	.footer__logo_en{
+		padding: 38px 100px 110px 0;
+	}
+}
+
+@media only screen and (width: 1024px) and (height: 768px){
+	.header__title_block, .header__title_german{
+		margin-top: -5%;
+	}
+
+	.header__title_button{
+		margin-top: 20px;
+	}
+
+	.main__header{
+		height: 80vh;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.container{
+		width: 720px;
+	}
+
+	.header__title_german{
+		top: 29%;
+	}
+
+	.header__title_text{
+		padding: 5px 0 30px 0;
+	}
+
+	.header__de_text{
+		padding: 5px 0 20px 0;
+	}
+
+	.header__de_button{
+		margin-top: 0;
+	}
+
+	.header__title_button, .priority__button{
+		font-size: 16px;
+		padding: 8px 20px;
+		margin-top: 18px;
+	}
+
+	.priority__text{
+		line-height: 20px;
+		text-align: left;
+	}
+
+	.about__lawyer{
+		padding: 55px 0 72px 0;
+	}
+
+	.about__img{
+		width: 270px;
+		height: 360px;
+	}
+
+	.about__lawyer_cv{
+		padding-top: 50px;
+	}
+
+	.education__item, .education__language_item{
+		font-size: 17px;
+		line-height: 22px;
+		padding-bottom: 12px;
+		text-align: left;
+	}
+
+	.media__menu {
+	    height: 0%;
+	    width: 100%;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background: rgba(59, 68, 75, 0.99);
+	    overflow-y: hidden;
+	    transition: 0.5s;
+	}
+
+	a.close__btn {
+	    padding: 8px;
+	    text-decoration: none;
+	    font-size: 20px;
+	    color: #f2c567;
+	    display: block;
+	    transition: 0.3s;
+	}
+
+	.header__menu {
+	    position: relative;
+	    top: 11%;
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+
+	.media__menu a:hover, .media__menu a:focus {
+   	 	color: #efb847;
+	}
+
+	.media__menu .close__btn {
+	    position: absolute;
+	    top: 5px;
+	    right: 45px;
+	    font-size: 40px;
+	}
+
+	.media__cursor{
+		padding-top: 20px;
+		font-size: 40px;
+		color: #f2c567;
+		cursor: pointer;
+	}
+
+	.media__cursor:hover{
+		color: #efb847;
+	}
+
+	.header__menu_item, .header__item_main {
+	  	margin-left: 0;
+	 	font-size: 28px;
+	}
+
+	.dropdown__item_menu{
+		margin-left: 0;
+	}
+
+	.header__menu_lng{
+		margin: 17px 0 25px 0;
+  		font-size: 22px;
+	}
+
+	.dropdown__content{
+		left: 59%;
+		top: -5%;
+	}
+
+	.proposition__offer_text{
+		line-height: 18px;
+		font-size: 17px;
+		letter-spacing: 1px;
+		margin-left: 2px;
+		text-align: left;
+	}
+
+	.proposition__offer_img{
+		width: 310px;
+		height: 215px;
+	}
+
+	.cooperation__picture_img{
+		width: 430px;
+	}
+
+	.cooperation__text, .cooperation__text_de{
+		line-height: 18px;
+		margin-top: -5px;
+		font-size: 16px;
+		text-align: left;
+		margin-left: 10px;
+		letter-spacing: 1px;
+	}
+
+	.cooperation{
+		padding: 110px 0 0 0;
+		margin-bottom: -50px;
+	}
+
+	.cooperation__de{
+		padding: 110px 0 0 0;
+		margin-bottom: 50px;
+	}
+
+	.honorarium__offer{
+		padding: 75px 0 85px 0;
+	}
+
+	.honorarium__header{
+		padding-bottom: 50px;
+	}
+
+	.honorarium__block{
+		padding: 25px;
+	}
+
+	.honorarium__text_item{
+		font-size: 18px;
+	}
+
+	.service1__header_title{
+		padding: 20px 0 30px 0;
+	}
+
+	.service1__header, .service2__header{
+		padding-bottom: 45px;
+	}
+
+	.contacts__block_info{
+		padding: 45px 0 25px 0;
+	}
+
+	.map__main{
+		width: 600px;
+	}
+
+	.map__adress_sticker{
+	    top: 20%;
+	    right: 19%;
+	}
+
+	.fax__item, .mob__item, .whats__item, .sky__item, .mail__item{
+		font-size: 24px;
+		width: 39%;
+		letter-spacing: 2px;
+	}
+
+	.adress__item{
+		font-size: 24px;
+		width: 43%;
+		letter-spacing: 2px;
+	}
+
+	.adress__item:before{
+		padding: 0 5px 0 43px;
+	}
+
+	.fax__item:before{
+		padding: 0 5px 0 43px;
+	}
+
+	.mob__item:before{
+		padding: 0 5px 0 43px;
+	}
+
+	.whats__item:before{
+		padding: 0 5px 0 43px;
+	}
+
+	.sky__item:before{
+		padding: 0 5px 0 43px;
+	}
+
+	.mail__item:before{
+		padding: 0 5px 0 43px;
+	}
+
+	.adress__item_text{
+		font-size: 21px;
+		font-weight: 400;
+		padding-top: 5px;
+		letter-spacing: 2px;
+	}
+
+	.footer__below_rights{
+		font-size: 12px;
+	}
+
+	.footer__logo_pl{
+		padding: 35px 76px 106px 0;
+	}
+
+	.footer__logo_de{
+		padding: 35px 76px 73px 0;
+	}
+
+	.footer__logo_en{
+		padding: 35px 76px 107px 0;
+	}
+
+	.fa-building, .fa-phone, .fa-envelope{
+		padding: 7px 30px 0 0;
+		font-size: 35px;
+	}
+
+	.footer__up_link{
+		margin-top: -37px;
+		width: 47px;
+		height: 47px;
+	}
+
+	.fa-chevron-up{
+		font-size: 22px;
+		padding-top: 10px;
+	}
+
+	.footer__below_de{
+		margin-top: 46px;
+	}
+}
+
+@media only screen and (width: 846px) and (height: 414px){
+	.header__title_block{
+		top: 30%;
+	}
+
+	.header__title_german{
+		top: 22%;
+	}
+
+	.header__title_button{
+		margin-top: 20px;
+	}
+
+	.header__de_button{
+		margin-top: -5px;
+	}
+
+	a.close__btn {
+	    font-size: 16px;
+	}
+
+	.media__menu .close__btn {
+	    top: 5px;
+	    right: 35px;
+	    font-size: 30px;
+	}
+
+	.header__menu_item, .header__item_main {
+	  	margin-left: 0;
+	 	font-size: 20px;
+	}
+
+	.header__menu_lng{
+		margin: 12px 0 16px 0;
+  		font-size: 16px;
+	}
+}
+
+@media only screen and (width: 812px) and (height: 375px){
+	.header__title_block, .header__title_german{
+		margin-top: -5%;
+	}
+
+	.header__title_button{
+		margin-top: 5px;
+	}
+
+	.header__title_button{
+		margin-top: -10px;
+	}
+
+	a.close__btn {
+	    font-size: 16px;
+	}
+
+	.media__menu .close__btn {
+	    top: 5px;
+	    right: 35px;
+	    font-size: 30px;
+	}
+
+	.header__menu_item, .header__item_main {
+	  	margin-left: 0;
+	 	font-size: 20px;
+	}
+
+	.header__menu_lng{
+		margin: 12px 0 16px 0;
+  		font-size: 16px;
+	}
+}
+
+@media only screen and (width: 768px) and (height: 1024px){
+	.header__title_block, .header__title_german{
+		margin-top: -5%;
+	}
+
+	.header__title_button{
+		margin-top: 20px;
+	}
+
+	.main__header{
+		height: 80vh;
+	}
+}
+
+
+@media screen and (max-width: 767px){
+	.container{
+		width: 540px;
+	}
+
+	.main__header_scale{
+		width: 110px;
+		height: 40px;
+	}
+
+	.header__de_button{
+		margin-top: -2px;
+	}
+
+	.gold__scale_line{
+		width: 80px;
+		margin-bottom: 18px;
+	}
+
+	.header__title{
+		font-size: 30px;
+	}
+
+	.header__title_text{
+		font-size: 38px;
+	}
+
+	.practice__area{
+		padding: 74px 0 90px 0;
+	}
+
+	.about__lawyer_title, .lawyer__introduce{
+		color: #3b444b;
+	}
+
+	.priority__text{
+		font-size: 19px;
+	}
+
+	.about__img{
+		width: 290px;
+		height: 375px;
+		border: 1px solid #fff;
+	}
+
+	.about__lawyer{
+		padding: 85px 0 115px 0;
+		background: none;
+		background-color: #fff;
+		opacity: 100%;
+	}
+
+	.about__lawyer::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #fff;
+		opacity: 100%;
+    }
+
+    .about__lawyer_education h4{
+    	color: #5f5f5f;
+    	font-size: 31px;
+    }
+
+    .education__item, .education__language_item{
+    	color: #545454;
+    	font-weight: 500;
+    }
+
+    .about__lawyer_education{
+		padding: 15px 0 0 0;
+	}
+
+    .gold__gm_line{
+		border-bottom: 1px solid #3b444b;
+	}
+
+	.lawyer__introduce_occupacy{
+		padding: 20px 0 45px 0;
+	}
+
+	.service1__header_block{
+		margin: 16px 0 10px 0;
+	}
+
+	.honorarium__offer{
+		background: none;
+		background-color: #3b444b;
+		opacity: .86;
+	}
+
+	.proposition__offer_img{
+		width: 330px;
+		height: 225px;
+	}
+
+	.proposition__offer_text{
+		line-height: 20px;
+		font-size: 20px;
+		letter-spacing: 2px;
+		margin-left: 20px;
+	}
+
+	.proposition__service{
+		height: auto;
+	}
+
+	.offer__item{
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.cooperation__text, .cooperation__text_de{
+		line-height: 20px;
+		margin: 0;
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+
+	.cooperation__picture_img{
+		width: 505px;
+		height: 430px;
+	}
+
+	.cooperation{
+		padding: 110px 0 95px 0;
+		margin-bottom: 0;
+	}
+
+	.offer__service_item{
+		text-align: left;
+	}
+
+	.fax__item, .mob__item, .whats__item, .sky__item, .mail__item{
+		font-size: 21px;
+		width: 42%;
+		letter-spacing: 1px;
+	}
+
+	.adress__item{
+		font-size: 21px;
+		width: 50%;
+		letter-spacing: 1px;
+	}
+
+	.adress__item_text{
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+
+	.adress__item_media{
+		padding-right: 54px;
+	}
+
+	.map{
+		margin: 54px 0 6px 0;
+	}
+
+	.map__main{
+		width: 480px;
+		height: 400px;
+	}
+
+	.map__adress_sticker{
+	    top: 20%;
+	    right: 12%;
+	}
+
+	.footer__logo_de{
+		font-size: 16px;
+		font-weight: 500;
+		padding: 34px 20px 65px 0;
+	}
+
+	.footer__logo_pl{
+		font-size: 16px;
+		font-weight: 500;
+		padding: 34px 20px 67px 0;
+	}
+
+	.footer__logo_en{
+		font-size: 16px;
+		font-weight: 500;
+		padding: 34px 20px 69px 0;
+	}
+
+	.footer__contacts{
+		font-size: 16px;
+	}
+
+	.fa-building, .fa-phone, .fa-envelope{
+		padding: 6px 26px 0 0;
+		font-size: 32px;
+	}
+
+	.footer__up_link{
+		margin-top: -37px;
+		margin-left: 22px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.fa-chevron-up{
+		font-size: 20px;
+		padding-top: 7px;
+	}
+
+	.footer__button{
+		padding: 8px 18px;
+	}
+}
+@media only screen and (width: 740px) and (height: 360px){
+	.header__title_block, .header__title_german{
+		top: 30%;
+	}
+
+	.header__title_button{
+		margin-top: 15px;
+	}
+
+	.main__header{
+		height: 130vh;
+	}
+
+	a.close__btn {
+	    font-size: 16px;
+	}
+
+	.media__menu .close__btn {
+	    top: 5px;
+	    right: 35px;
+	    font-size: 30px;
+	}
+
+	.header__menu_item, .header__item_main {
+	  	margin-left: 0;
+	 	font-size: 20px;
+	}
+
+	.header__menu_lng{
+		margin: 12px 0 16px 0;
+  		font-size: 16px;
+	}
+}
+
+@media only screen and (width: 736px) and (height: 414px){
+	.header__title_block, .header__title_german{
+		top: 35%;
+	}
+
+	.header__title_button{
+		margin-top: 15px;
+	}
+
+	.main__header{
+		height: 130vh;
+	}
+
+	a.close__btn {
+	    font-size: 16px;
+	}
+
+	.media__menu .close__btn {
+	    top: 5px;
+	    right: 35px;
+	    font-size: 30px;
+	}
+
+	.header__menu_item, .header__item_main {
+	  	margin-left: 0;
+	 	font-size: 20px;
+	}
+
+	.header__menu_lng{
+		margin: 12px 0 16px 0;
+  		font-size: 16px;
+	}
+}
+
+@media only screen and (width: 667px) and (height: 375px){
+	.header__title_block, .header__title_german{
+		top: 35%;
+	}
+
+	.header__title_button{
+		margin-top: 15px;
+	}
+
+	.main__header{
+		height: 130vh;
+	}
+
+	a.close__btn {
+	    font-size: 16px;
+	}
+
+	.media__menu .close__btn {
+	    top: 5px;
+	    right: 35px;
+	    font-size: 30px;
+	}
+
+	.header__menu_item, .header__item_main {
+	  	margin-left: 0;
+	 	font-size: 20px;
+	}
+
+	.header__menu_lng{
+		margin: 12px 0 16px 0;
+  		font-size: 16px;
+	}
+}
+
+@media only screen and (width: 640px) and (height: 360px){
+	.header__title_block, .header__title_german{
+		top: 35%;
+	}
+
+	.header__title_button{
+		margin-top: 15px;
+	}
+
+	.main__header{
+		height: 130vh;
+	}
+
+	a.close__btn {
+	    font-size: 16px;
+	}
+
+	.media__menu .close__btn {
+	    top: 5px;
+	    right: 35px;
+	    font-size: 30px;
+	}
+
+	.header__menu_item, .header__item_main {
+	  	margin-left: 0;
+	 	font-size: 20px;
+	}
+
+	.header__menu_lng{
+		margin: 12px 0 16px 0;
+  		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.container{
+		width: 90%;
+	}
+
+	.header__title_block{
+		top: 29%;
+	}
+
+	.header__title{
+		font-size: 30px;
+	}
+
+	.header__title_text{
+		font-size: 32px;
+	}
+
+	.header__de_title{
+		font-size: 28px;
+	}
+
+	.header__de_text{
+		font-size: 30px;
+	}
+
+	.header__title_button{
+		margin-top: 5px;
+	}
+
+	.header__de_button{
+		margin-top: 15px;
+	}
+
+	.priority__picture_img{
+		margin-bottom: -50px;
+	}
+
+	.about__lawyer_education h4{
+    	font-size: 26px;
+    }
+
+    .grade-cap, .fa-globe{
+		padding: 0 10px 0 0;
+	}
+
+	.grade-title-cap{
+		font-size: 28px;
+		padding: 0 10px 6px 10px;
+	}
+
+	.service1__header_title, .kancelaria__header_title, .contacts__header_title{
+		font-size: 36px;
+	}
+
+	.proposition__offer_title, .cooperation__offer_title, .priorities__title, .practice__area_title, .about__lawyer_title{
+		font-size: 28px;
+	}
+
+	.priority__title_text{
+		font-size: 20px;
+	}
+
+	.about__lawyer_cv{
+		padding-top: 20px;
+	}
+
+	.about__lawyer{
+		padding: 65px 0 85px 0;
+	}
+
+	.practice__area{
+		padding: 68px 0 80px 0;
+	}
+
+	.contacts__title_text{
+		font-size: 32px;
+		letter-spacing: 3px;
+		padding: 38px 0 58px 0;
+	}
+
+	.kancelaria__header_block{
+		margin: 20px 0 15px 0;
+	}
+
+	.service1__header_block{
+		margin: 20px 0 0 0;
+	}
+
+	.header__menu_item, .header__item_main {
+	 	font-size: 22px;
+	}
+
+	.header__menu {
+	    top: 16%;
+	    margin-bottom: 36px;
+	}
+
+	.proposition__service{
+		background: none;
+		background-color: #3b444b;
+		opacity: .86;
+		height: auto;
+	}
+
+	.proposition__offer_text{
+		line-height: 18px;
+		font-size: 17px;
+		letter-spacing: 1px;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.proposition__offer_img{
+		width: 290px;
+		height: 200px;
+	}
+
+	.cooperation__text_pl, .cooperation__de_link{
+		width: 96px;
+		margin: auto;
+	}
+
+	.cooperation__text_eng{
+		width: 124px;
+		margin: auto;
+	}
+
+	.cooperation__picture_img{
+		width: 300px;
+		height: 330px;
+		margin-bottom: -70px;
+	}
+
+	.cooperation__text, .cooperation__text_de{
+		line-height: 18px;
+		font-size: 17px;
+		letter-spacing: 1px;
+		margin-left: 20px;
+	}
+
+	.offer__item{
+		font-size: 17px;
+		padding-bottom: 55px;
+	}
+
+	.offer__text{
+		font-size: 20px;
+		padding: 28px 0 18px 0;
+	}
+
+	.service1__offer{
+		padding: 35px 0 120px 0;
+	}
+
+	.service1__offer_title{
+		font-size: 24px;
+		padding: 20px 0 42px 0;
+	}
+
+	.fa-balance-scale{
+		font-size: 18px;
+	}
+
+	.service1__scale{
+		font-size: 18px;
+		padding: 0 0 20px 14px;
+		margin-top: -5px;
+	}
+
+	.service1__items li{
+		font-size: 16px;
+	}
+
+	.service1__block{
+		border: 1px solid #f2c567;
+		padding: 35px 20px 15px 25px;
+		text-align: left;
+	}
+
+	.honorarium__block{
+		border: 1px solid #f2c567;
+		padding: 20px;
+		text-align: left;
+	}
+
+	.honorarium__scale_title{
+		font-size: 21px;
+		padding: 10px 0 8px 0;
+	}
+
+	.dropdown__content{
+		min-width: 90px;
+		left: 56%;
+		top: -2%;
+	}
+
+	.dropdown__content a{
+		padding: 12px 5px;
+	}
+
+	.item__main{
+		font-size: 12px;
+	}
+
+	.service2__law_text{
+		font-size: 18px;
+	}
+
+	.service2__law_list{
+		font-size: 16px;
+		padding-bottom: 40px;
+	}
+
+	.contacts__title_text{
+		padding: 30px 0 38px 0;
+	}
+
+	.contacts__header_title{
+		padding: 20px 0 28px 0;
+	}
+
+	.contact__block_item{
+	    display: block;
+	    text-align: center;
+	    margin-bottom: 28px;
+	}
+
+	.adress__item, .fax__item, .mob__item, .whats__item, .sky__item, .mail__item{
+		font-size: 26px;
+		width: 100%;
+		letter-spacing: 2px;
+	}
+
+	.contact__text_block{
+		text-align: center;
+		margin: auto;
+	}
+
+	.adress__item_text{
+		font-size: 22px;
+		letter-spacing: 2px;
+	}
+
+	.adress__item_media{
+		padding-right: 0;
+	}
+
+	.adress__item:before{
+		padding: 0 5px 0 0;
+	}
+
+	.fax__item:before{
+		padding: 0 5px 0 0;
+	}
+
+	.mob__item:before{
+		padding: 0 5px 0 0;
+	}
+
+	.whats__item:before{
+		padding: 0 5px 0 0;
+	}
+
+	.sky__item:before{
+		padding: 0 5px 0 0;
+	}
+
+	.mail__item:before{
+		padding: 0 5px 0 0;
+	}
+
+	.map__main{
+		width: 350px;
+		height: 300px;
+	}
+
+	.map__adress_sticker{
+	    top: 18%;
+	    right: 12%;
+	    padding: 5px;
+	}
+
+	.map__adress_block{
+	    padding: 10px 5px;
+	}
+
+	.map__adress_text{
+    	font-size: 10px;
+	}
+
+	.footer__block{
+		height: 790px;
+		padding-top: 65px;
+	}
+
+	.footer__contacts_title{
+		font-size: 20px;
+		margin: 90px 0 25px 0;
+	}
+
+	.footer__below_rights{
+		display: none;
+	}
+
+	.footer__icon_item{
+		padding-right: 15px;
+	}
+
+	.footer__up_link{
+		margin: -40px 0 0 380px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.header__title_german{
+		top: 23%;
+	}
+
+	.priority__picture_img{
+		margin-bottom: -90px;
+	}
+
+	.adress__item_text{
+		font-size: 21px;
+		letter-spacing: 1px;
+	}
+
+	.map__main{
+		width: 300px;
+		height: 270px;
+	}
+
+	.map__adress_sticker{
+	    top: 12%;
+	    right: 8%;
+	}
+
+	.footer__up_link{
+		margin: -40px 0 0 340px;
+	}
+}
+
+@media screen and (max-width: 440px){
+	.offer__service_item{
+		font-size: 17px;
+	}
+
+	.priority__picture_img{
+		margin-bottom: -130px;
+	}
+
+	.header__de_text{
+		font-size: 27px;
+	}
+
+	.footer__up_link{
+		margin: -40px 0 0 290px;
+	}
+
+	.service1__offer_title{
+		font-size: 22px;
+	}
+
+	.deut__footer_block{
+		height: 820px;
+		padding-top: 53px;
+	}
+
+	.footer__below_line{
+		margin-top: 50px;
+	}
+}
+
+/*galaxy note 9*/
+@media only screen and (width: 414px) and (height: 846px){
+	.header__title_block, .header__title_german{
+		top: 30%;
+	}
+
+	.header__title_button{
+		margin-top: 43px;
+	}
+}
+
+/*iphone 6,7,8 plus*/
+@media only screen and (width: 414px) and (height: 736px){
+	.header__title_block, .header__title_german{
+		top: 33%;
+	}
+
+	.header__title_button{
+		margin-top: 43px;
+	}
+}
+
+@media screen and (max-width: 380px){
+	.footer__up_link{
+		margin: -40px 0 0 250px;
+	}
+
+	.header__de_text{
+		font-size: 24px;
+	}
+
+	.header__de_title{
+		font-size: 23px;
+	}
+
+	.header__de_button{
+		margin: 15px;
+	}
+
+	.priority__picture_img{
+		margin-bottom: -160px;
+	}
+
+	.practice__law_item{
+		font-size: 24px;
+		padding: 10px 0 48px 0;
+	}
+
+	.practice__law{
+		width: 260px;
+		height: 300px;
+		margin: 6px 0;
+	}
+
+	.practice__law_last{
+		padding-bottom: 27px;
+	}
+
+	.practice__law_button{
+		font-size: 17px;
+		padding: 7px 44px;
+	}
+
+	.proposition__offer_img{
+		width: 260px;
+		height: 180px;
+	}
+
+	.proposition__offer_text{
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.kancelaria__header_de{
+		font-size: 31px;
+	}
+
+	.service1__header_title{
+		font-size: 32px;
+	}
+
+	.service1__offer_title{
+		font-size: 20px;
+		padding: 20px 0 40px 0;
+	}
+
+	.deut__honorarium_scale{
+		font-size: 18px;
+	}
+
+	.deut__honorarium_text{
+		font-size: 17px;
+	}
+
+	.header__menu_item, .header__item_main {
+	 	font-size: 20px;
+	}
+
+	.header__menu {
+	    top: 18%;
+	    margin-bottom: 40px;
+	}
+
+	.item__main{
+		font-size: 10px;
+	}
+
+	.dropdown__content{
+		left: 53%;
+		top: -2%;
+	}
+
+	.service__deut_items li{
+		font-size: 13px;
+	}
+
+	.map__main{
+		width: 270px;
+		height: 250px;
+	}
+
+	.map__adress_sticker{
+	    top: 9%;
+	    right: 2%;
+	}
+
+	.contacts__title_de{
+		font-size: 24px;
+	}
+
+	.footer__block{
+		height: 830px;
+		padding-top: 55px;
+	}
+
+	.deut__footer_block{
+		height: 860px;
+		padding-top: 53px;
+	}
+}
+
+/*iphone x*/
+@media only screen and (width: 375px) and (height: 812px){
+	.header__title_block, .header__title_german{
+		top: 32%;
+	}
+
+	.header__title_button{
+		margin-top: 43px;
+	}
+}
+
+/*phone 6,7,8*/
+@media only screen and (width: 375px) and (height: 667px){
+	.header__title_block, .header__title_german{
+		top: 32%;
+	}
+
+	.header__title_button{
+		margin-top: 43px;
+	}
+}
+
+@media screen and (max-width: 369px){
+	.header__title{
+		font-size: 27px;
+	}
+
+	.header__title_text{
+		font-size: 29px;
+	}
+
+	.header__de_text{
+		font-size: 24px;
+	}
+
+	.header__de_title{
+		font-size: 23px;
+	}
+
+	.header__de_button{
+		margin: 15px;
+	}
+}
+
+/*Galaxy 9,9+*/
+@media only screen and (width: 360px) and (height: 740px){
+	.header__title_block, .header__title_german{
+		top: 30%;
+	}
+
+	.header__title_button{
+		margin-top: 43px;
+	}
+}
+
+/*Galaxy s5, s6, s7*/
+@media only screen and (width: 360px) and (height: 640px){
+	.header__title_block, .header__title_german{
+		top: 30%;
+	}
+
+	.header__title_button{
+		margin-top: 43px;
+	}
+}
+
+@media screen and (max-width: 340px){
+	.footer__up_link{
+		margin: -40px 0 0 220px;
+	}
+
+	.about__img{
+		width: 280px;
+		height: 360px;
+	}
+
+	.header__de_text{
+		font-size: 21px;
+	}
+
+	.header__de_title{
+		font-size: 19px;
+	}
+
+	.header__title_german{
+		top: 35%;
+	}
+
+	.priority__text{
+		font-size: 18px;
+	}
+
+	.priority__picture_img{
+		margin-bottom: -190px;
+	}
+
+	.service1__header_title{
+		font-size: 30px;
+	}
+
+	.service1__offer_title{
+		font-size: 15px;
+	}
+
+	.service__deut_items li{
+		font-size: 12px;
+	}
+
+	.adress__item_text{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	.map__main{
+		width: 255px;
+		height: 240px;
+	}
+
+	.map__adress_sticker{
+	    top: 9%;
+	    right: 2%;
+	}
+}
+
+@media screen and (max-width: 335px){
+	.header__title{
+		font-size: 25px;
+	}
+
+	.header__title_text{
+		font-size: 27px;
+	}
+
+	.about__img{
+		width: 260px;
+		height: 340px;
+	}
+
+	.header__de_text{
+		font-size: 18px;
+	}
+
+	.header__de_title{
+		font-size: 22px;
+	}
+}

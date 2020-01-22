@@ -1,0 +1,1101 @@
+body {
+  box-sizing: border-box;
+  position: relative;
+  min-width: 320px;
+  margin: auto !important;
+  padding: 0;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.container {
+  width: 1176px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, div, section, button, span, p, a {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main__header .container {
+  height: 100vh;
+}
+
+.main__bar {
+  position: absolute;
+  width: 100%;
+}
+
+.main__header {
+  background: url("../img/justice.jpg") no-repeat center top/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.main__header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3b444b;
+  opacity: .80;
+}
+
+.logo {
+  font-family: "Alex Brush", cursive;
+  font-size: 36px;
+  color: #f2c567;
+  text-decoration: none;
+  text-shadow: 2px 3px 4px #eae0c8;
+  border: 1px solid #f2c567;
+  padding: 12px 27px 5px 17px;
+  border-radius: 100%;
+  font-weight: bold;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #3b444b;
+  background-color: #efb847;
+  transition: all 1s;
+}
+
+.header__menu {
+  padding-top: 45px;
+}
+
+.header__menu_item {
+  margin-left: 29px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.header__item {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f2c567;
+}
+
+.header__item:hover {
+  color: #efb847;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.header__item_main {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f2c567;
+  font-size: 15px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: rgba(59, 68, 75, 0.93);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown__content a {
+  color: #f2c567;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.item__main {
+  text-decoration: none;
+  color: #f2c567;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+.item__main:hover {
+  text-decoration: none;
+  color: #efb847;
+}
+
+.dropdown__content {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.main__item:hover {
+  text-decoration: none;
+  color: #efb847;
+}
+
+.gold__line_menu {
+  width: 100%;
+  border-bottom: 1px solid #f2c567;
+}
+
+.dropdown__item_menu {
+  color: #f2c567;
+  margin-left: 31px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.header__menu_lng {
+  margin-left: 24px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.header__item_lng, .practice__law_button {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 1px solid #f2c567;
+  color: #f2c567;
+}
+
+.header__item_lng:hover, .practice__law_button:hover {
+  color: #3b444b;
+  opacity: .80;
+  text-decoration: none;
+  transition: all 2s;
+  background-color: #efb847;
+}
+
+.header__title_block, .header__title_german {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 30%;
+  color: #f2c567;
+}
+
+.header__title_german {
+  top: 26%;
+}
+
+.gold__scale_line {
+  border-bottom: 1px solid #f2c567;
+  width: 120px;
+  margin-bottom: 25px;
+}
+
+.main__header_scale {
+  padding: 0 30px;
+}
+
+.header__title, .header__title_text {
+  padding-top: 35px;
+  font-size: 48px;
+  font-family: "Cormorant Unicase", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.header__title_text {
+  font-size: 56px;
+  padding: 5px 0 40px 0;
+}
+
+.header__title_button, .header__de_button, .priority__button, .footer__button {
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 8px 28px;
+  border: 1px solid #f2c567;
+  margin-top: 28px;
+  color: #f2c567;
+  text-decoration: none;
+}
+
+.header__title_button:hover, .header__de_button:hover, .priority__button:hover, .footer__button:hover {
+  color: #3b444b;
+  opacity: .80;
+  text-decoration: none;
+  transition: all 2s;
+  background-color: #efb847;
+}
+
+.header__de_button {
+  margin-top: 3px;
+}
+
+.priorities {
+  padding: 95px 0 100px 0;
+  position: relative;
+}
+
+.priorities__title, .about__lawyer_title, .proposition__offer_title, .cooperation__offer_title {
+  font-size: 44px;
+  letter-spacing: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #3b444b;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.fa-gem, .fa-university, .fa-bell {
+  font-size: 24px;
+  color: #f2c567;
+  padding: 0 15px;
+}
+
+.gold__gem_line {
+  border-bottom: 1px solid #3b444b;
+  width: 90px;
+  margin-bottom: 14px;
+}
+
+.priority__title_text, .cooperation__title_text, .service2__law_text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #545454;
+  padding: 50px 0 64px 0;
+}
+
+.priority__text, .practice__title_text, .practice__below_text, .cooperation__text, .cooperation__text_de {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #5f5f5f;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.priority__picture_img {
+  width: 530px;
+  height: 417px;
+  position: relative;
+}
+
+.priority__picture_style {
+  z-index: -111;
+  background-color: #3b444b;
+  position: absolute;
+}
+
+.priority__picture {
+  opacity: .35;
+}
+
+.priority__title_lines {
+  margin-top: 80px;
+}
+
+.priority__button {
+  border: 1px solid #f2c567;
+  color: #f2c567;
+  background-color: #3b444b;
+  margin-top: 14px;
+}
+
+.priority__button:hover {
+  color: #3b444b;
+  opacity: .80;
+  text-decoration: none;
+  transition: all 2s;
+  background-color: #f2c567;
+}
+
+.eng__version {
+  margin-top: 38px;
+}
+
+.practice__area {
+  background-color: #3b444b;
+  padding: 75px 0 140px 0;
+}
+
+.practice__area .row {
+  margin-bottom: 6px;
+}
+
+.practice__img_coronal {
+  width: 70px;
+  height: 70px;
+}
+
+.practice__area_title, .service1__offer_title {
+  font-size: 38px;
+  letter-spacing: 4px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f2c567;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 20px 0 40px 0;
+}
+
+.practice__title_text, .practice__below_text {
+  color: #f2c567;
+  font-size: 18px;
+  padding: 5px 0 55px 0;
+}
+
+.practice__below_text {
+  padding: 50px 0 20px 0;
+}
+
+.practice__law {
+  width: 268px;
+  height: 315px;
+  border: 2px solid #f2c567;
+  color: #f2c567;
+  margin: 3px;
+  background: #3b444b;
+  background: -moz-linear-gradient(top, #3b444b 0%, #86aecc 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #3b444b), color-stop(100%, #86aecc));
+  background: -webkit-linear-gradient(top, #3b444b 0%, #86aecc 100%);
+  background: -o-linear-gradient(top, #3b444b 0%, #86aecc 100%);
+  background: -ms-linear-gradient(top, #3b444b 0%, #86aecc 100%);
+  background: linear-gradient(to bottom, #3b444b 0%, #86aecc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b444b', endColorstr='#86aecc', GradientType=0 );
+}
+
+.practice__law_icon {
+  margin-bottom: 22px;
+}
+
+.golden__book {
+  font-size: 26px;
+  padding: 40px 15px 0 15px;
+}
+
+.practice__law_item, .practice__item {
+  font-size: 26px;
+  font-family: "Cormorant Unicase", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 78px;
+}
+
+.practice__item {
+  font-size: 23px;
+  padding: 18px 0 88px 0;
+}
+
+.golden__line_law {
+  width: 55px;
+  border-bottom: 1px solid #f2c567;
+  margin-bottom: 15px;
+}
+
+.practice__law_button {
+  font-size: 17px;
+  padding: 8px 54px;
+  text-transform: uppercase;
+}
+
+.practice__law_last {
+  padding-bottom: 39px;
+}
+
+.about__lawyer {
+  padding: 100px 0 130px 0;
+  background: url("../img/bg-2.jpg") no-repeat center center;
+  height: auto;
+  position: relative;
+}
+
+.about__lawyer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3b444b;
+  opacity: .88;
+}
+
+.about__lawyer_title {
+  color: #f2c567;
+}
+
+.about__cap_line {
+  margin-bottom: 38px;
+}
+
+.gold__gm_line {
+  border-bottom: 1px solid #f2c567;
+  width: 90px;
+  margin-bottom: 19px;
+}
+
+.fa-graduation-cap {
+  color: #f2c567;
+}
+
+.grade-title-cap {
+  font-size: 32px;
+  padding: 0 15px 7px 15px;
+}
+
+.about__lawyer_cv {
+  padding-top: 40px;
+}
+
+.about__img {
+  width: 300px;
+  height: 410px;
+  border: 1px solid #f2c567;
+}
+
+.lawyer__introduce {
+  color: #f2c567;
+  font-family: "Alex Brush", cursive;
+  line-height: 32px;
+  padding-top: 48px;
+}
+
+.lawyer__introduce_name {
+  font-size: 54px;
+}
+
+.lawyer__introduce_occupacy {
+  font-size: 38px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.about__lawyer_education {
+  font-family: "Libre Franklin", sans-serif;
+  color: #f2c567;
+  padding: 15px 0 0 40px;
+}
+
+.about__lawyer_education > h4 {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.education__item, .education__language_item {
+  font-family: "Libre Franklin", sans-serif;
+  color: #f2c567;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 12px;
+  text-align: justify;
+}
+
+.fa-globe {
+  font-size: 26px;
+  color: #f2c567;
+  padding-right: 20px;
+}
+
+.grade-cap {
+  font-size: 26px;
+  padding: 0 20px 0 0;
+}
+
+.footer__block {
+  background: url("../img/bg-1.png") no-repeat center top/cover;
+  height: 510px;
+  position: relative;
+  padding-top: 70px;
+  color: #f2c567;
+}
+
+.footer__block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3b444b;
+  opacity: .70;
+}
+
+.footer__logo_de, .footer__logo_pl, .footer__logo_en, .footer__contacts {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 38px 100px 88px 0;
+}
+
+.footer__logo_pl {
+  padding: 38px 100px 80px 0;
+}
+
+.footer__logo_en {
+  padding: 38px 100px 90px 0;
+}
+
+.footer__button {
+  font-size: 14px;
+}
+
+.fa-phone-volume {
+  padding-right: 7px;
+}
+
+.footer__contacts_title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 14px 0 45px 0;
+}
+
+.footer__contacts {
+  padding: 3px 0 25px 0;
+  line-height: 22px;
+}
+
+.fa-building, .fa-phone, .fa-envelope {
+  padding: 7px 35px 0 0;
+  font-size: 38px;
+}
+
+.footer__contact_mail {
+  color: #f2c567;
+  text-decoration: none;
+}
+
+.footer__contact_mail:hover {
+  color: #efb847;
+}
+
+.mail__contact {
+  margin-top: 10px;
+}
+
+.footer__below_line, .footer__below_de {
+  margin-top: 80px;
+  background-color: #3b444b;
+  padding: 18px 0;
+}
+
+.footer__icons_line {
+  font-size: 26px;
+}
+
+.footer__below_rights {
+  padding-top: 7px;
+}
+
+.footer__icon {
+  color: #f2c567;
+  text-decoration: none;
+}
+
+.footer__icon:hover {
+  text-decoration: none;
+  color: #efb847;
+  transition: all 2s;
+}
+
+.footer__icon_item {
+  padding-right: 35px;
+}
+
+.footer__up_link {
+  margin-top: -40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #f2c567;
+}
+
+.fa-chevron-up {
+  color: #f2c567;
+  font-size: 23px;
+  padding-top: 11px;
+}
+
+.nav__menu {
+  background: rgba(59, 68, 75, 0.92);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px 0 30px 0;
+}
+
+.kancelaria__header_block, .service1__header_block, .contacts__header_block {
+  margin: 50px 0 45px 0;
+}
+
+.kancelaria__header_title, .service1__header_title, .contacts__header_title {
+  font-size: 56px;
+  font-family: "Cormorant Unicase", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 50px 0 30px 0;
+  color: #3b444b;
+}
+
+.fa-university, .fa-bell {
+  font-size: 28px;
+}
+
+.gold__line {
+  width: 90px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #3b444b;
+}
+
+.kancelaria__title_text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #545454;
+  padding: 35px 0 94px 0;
+}
+
+.proposition__service {
+  background: url("../img/background-4.jpg") no-repeat center top/cover;
+  height: auto;
+  position: relative;
+}
+
+.proposition__service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3b444b;
+  opacity: .80;
+}
+
+.proposition__offer {
+  padding-top: 46px;
+  color: #f2c567;
+}
+
+.proposition__offer_title {
+  color: #f2c567;
+  padding-bottom: 25px;
+}
+
+.golden__line {
+  width: 90px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f2c567;
+}
+
+.proposition__offer_text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #f2c567;
+  padding: 59px 0 16px 0;
+  line-height: 32px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.offer__text {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f2c567;
+  font-size: 26px;
+  font-weight: 500;
+  padding: 35px 0 24px 0;
+}
+
+.offer__service_item, .offer__item {
+  line-height: 21px;
+  padding: 0 0 20px 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f2c567;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.proposition__offer_img {
+  width: 390px;
+  height: 265px;
+  margin-top: 50px;
+  opacity: .90;
+  border: 2px solid #f2c567;
+}
+
+.offer__item {
+  padding-bottom: 65px;
+}
+
+.cooperation, .cooperation__de {
+  padding: 120px 0 105px 0;
+}
+
+.fa-handshake {
+  color: #f2c567;
+  font-size: 34px;
+  padding: 0 17px;
+}
+
+.cooperation__picture_img {
+  width: 530px;
+  height: 500px;
+  position: relative;
+}
+
+.cooperation__picture_style {
+  z-index: -111;
+  background-color: #3b444b;
+  position: absolute;
+}
+
+.cooperation__picture {
+  opacity: .35;
+}
+
+.cooperation__text {
+  line-height: 23px;
+  margin-top: -2px;
+  text-align: justify;
+}
+
+.cooperation__text_de {
+  margin-top: 0px;
+}
+
+.text__hide_de {
+  display: none;
+}
+
+.cooperation__text_link {
+  display: none;
+}
+
+.cooperation__de_link {
+  margin-top: 33px;
+}
+
+.fa-user, .fa-suitcase {
+  font-size: 26px;
+  color: #f2c567;
+  padding: 0 18px;
+}
+
+.service1__header, .service2__header {
+  padding-bottom: 85px;
+}
+
+.service1__offer {
+  padding: 85px 0 135px 0;
+  background-color: #3b444b;
+  color: #f2c567;
+}
+
+.service1__offer_title {
+  font-size: 32px;
+  padding: 20px 0 68px 0;
+}
+
+.service1__block {
+  border: 2px solid #f2c567;
+  padding: 55px 45px 35px 45px;
+  text-align: justify;
+}
+
+.fa-balance-scale {
+  font-size: 24px;
+  color: #f2c567;
+}
+
+.service1__scale {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 0 0 20px 24px;
+}
+
+.service1__items {
+  padding: 0 0 28px 52px;
+}
+
+.service1__items li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.service2__law_text {
+  padding: 50px 0 34px 0;
+}
+
+.service2__law_list {
+  font-family: "Cormorant Unicase", serif;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 600;
+  color: #5f5f5f;
+  padding-bottom: 49px;
+}
+
+.service2__law_list a {
+  text-decoration: none;
+  color: #5f5f5f;
+}
+
+.service2__law_list a:hover {
+  text-decoration: none;
+  color: #3b444b;
+}
+
+.honorarium__header {
+  padding-bottom: 90px;
+}
+
+.honorarium__offer {
+  background: url("../img/experience.jpg") no-repeat center top;
+  position: relative;
+  padding: 105px 0 110px 0;
+}
+
+.honorarium__offer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3b444b;
+  opacity: .90;
+}
+
+.honorarium__block {
+  border: 2px solid #f2c567;
+  padding: 55px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f2c567;
+  text-align: justify;
+}
+
+.honorarium__text_item {
+  font-size: 19px;
+  font-weight: 400;
+  padding: 12px 0 54px 0;
+}
+
+.honorarium__scale_title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 17px 0 12px 0;
+}
+
+.price__link {
+  color: #efb847;
+}
+
+.price__link:hover {
+  text-decoration: none;
+  color: #5f5f5f;
+  transition: all 2s ease;
+}
+
+.honorarium__text_price {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.contacts__title_text {
+  font-family: "Alex Brush", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: #545454;
+  padding: 40px 0 78px 0;
+}
+
+.contacts__block {
+  background: url("../img/bg.jpg") no-repeat center top;
+  position: relative;
+  height: auto;
+  padding: 85px 0 125px 0;
+}
+
+.contacts__block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3b444b;
+  opacity: .88;
+}
+
+.contacts__block_info {
+  border: 2px solid #f2c567;
+  padding: 75px 0 25px 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f2c567;
+}
+
+.contact__block_item {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.adress__item, .fax__item, .mob__item, .whats__item, .sky__item, .mail__item {
+  font-size: 30px;
+  font-weight: 700;
+  width: 32%;
+  letter-spacing: 4px;
+}
+
+.adress__item:before, .fax__item:before, .mob__item:before, .whats__item:before, .sky__item:before, .mail__item:before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  content: "\f124";
+  font-weight: 900;
+  color: #f2c567;
+  font-size: 25px;
+  padding: 0 5px 0 70px;
+}
+
+.fax__item:before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  content: "\f1ac";
+  font-weight: 900;
+  color: #f2c567;
+  font-size: 25px;
+  padding: 0 5px 0 70px;
+}
+
+.mob__item:before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  content: "\f3cd";
+  font-weight: 900;
+  color: #f2c567;
+  font-size: 25px;
+  padding: 0 5px 0 70px;
+}
+
+.whats__item:before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Brands";
+  content: "\f232";
+  font-weight: 900;
+  color: #f2c567;
+  font-size: 25px;
+  padding: 0 5px 0 70px;
+}
+
+.sky__item:before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Brands";
+  content: "\f17e";
+  font-weight: 900;
+  color: #f2c567;
+  font-size: 25px;
+  padding: 0 5px 0 70px;
+}
+
+.mail__item:before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  content: "\f2b6";
+  font-weight: 900;
+  color: #f2c567;
+  font-size: 25px;
+  padding: 0 5px 0 70px;
+}
+
+.contact__text_block {
+  width: 68%;
+}
+
+.adress__item_text {
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 5px;
+  letter-spacing: 3px;
+}
+
+.adress__item_link {
+  color: #f2c567;
+  text-decoration: none;
+}
+
+.adress__item_link:hover {
+  color: #efb847;
+}
+
+.map {
+  margin: 84px 0 46px 0;
+  position: relative;
+}
+
+.map__main {
+  width: 960px;
+  height: 450px;
+}
+
+.map__adress_sticker {
+  position: absolute;
+  padding: 10px;
+  background: rgba(59, 68, 75, 0.82);
+  top: 22%;
+  right: 30%;
+}
+
+.map__adress_block {
+  border: 1px solid #f2c567;
+  padding: 15px 12px;
+}
+
+.map__adress_text {
+  color: #f2c567;
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
